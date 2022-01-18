@@ -1,5 +1,5 @@
 # local package
--e .
+# -e .
 ### Data ###
 pandas
 
@@ -8,6 +8,6 @@ sklearn
 
 ### Viz ###
 plotly.express
-
-### App ###
 jupyter-dash
+
+### Setup ###
