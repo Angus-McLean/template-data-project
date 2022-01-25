@@ -10,4 +10,7 @@ sklearn
 plotly.express
 jupyter-dash
 
+### Dash App ###
+dash-bootstrap-components
+
 ### Setup ###
