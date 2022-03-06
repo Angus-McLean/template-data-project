@@ -25,7 +25,7 @@ USER appuser
 RUN pip install ptvsd
 EXPOSE 5678
 
-###########START NEW IMAGE : NOTEBOOK ###################
+###########START NEW IMAGE : JUPYTER ###################
 RUN pip install notebook jupyterlab
 EXPOSE 8888
 
@@ -35,7 +35,7 @@ WORKDIR /app
 # CMD python -m ptvsd --host 0.0.0.0 --port 5678 --wait --multiprocess -m run src/dash/app.py
 # CMD python src/dash/app.py
 # CMD /bin/bash
-CMD jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
+# CMD jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root
 
 
 ###########START NEW IMAGE: PRODUCTION ###################
